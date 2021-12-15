@@ -27,3 +27,6 @@ hs_err_pid*
 
 # Cert Files
 *.p12
+
+target/
+.mvn/
