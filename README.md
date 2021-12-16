@@ -1,4 +1,4 @@
-## Java Redis Api Demo 
+## Java Redis Api 
 Using Java 17 / Spring Boot / Undertow / Redis
 
 ---

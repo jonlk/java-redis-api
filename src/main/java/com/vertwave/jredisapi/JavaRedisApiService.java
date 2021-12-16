@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RedisDemoApi {
+public class JavaRedisApiService {
     public static void main(String[] args) {
-        SpringApplication.run(RedisDemoApi.class, args);
+        SpringApplication.run(JavaRedisApiService.class, args);
     }
 }
 
