@@ -5,6 +5,8 @@ import com.vertwave.jredisapi.repositories.CacheItemRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -23,5 +25,19 @@ public class CacheServiceImpl implements CacheService {
     public Optional<CacheItem> setCacheItem(CacheItem item) {
         this.repository.save(item);
         return Optional.ofNullable(item);
+    }
+
+    @Override
+    public List<CacheItem> getAllCacheItems() {
+        List<CacheItem> cacheItems = new ArrayList<>();
+        for (CacheItem cacheItem : this.repository.findAll()) {
+            cacheItems.add(cacheItem);
+        }
+        return cacheItems;
+    }
+
+    @Override
+    public void deleteCacheItem(String id) {
+        this.repository.deleteById(id);
     }
 }
