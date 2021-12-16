@@ -1,12 +1,11 @@
-package com.vertwave.redisdemo.services;
+package com.vertwave.jredisapi.services;
 
-import com.vertwave.redisdemo.domain.model.CacheItem;
-import com.vertwave.redisdemo.repositories.CacheItemRepository;
+import com.vertwave.jredisapi.domain.model.CacheItem;
+import com.vertwave.jredisapi.repositories.CacheItemRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
-import java.util.UUID;
 
 @Service
 @AllArgsConstructor

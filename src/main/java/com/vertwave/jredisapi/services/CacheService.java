@@ -1,6 +1,6 @@
-package com.vertwave.redisdemo.services;
+package com.vertwave.jredisapi.services;
 
-import com.vertwave.redisdemo.domain.model.CacheItem;
+import com.vertwave.jredisapi.domain.model.CacheItem;
 
 import java.util.Optional;
 

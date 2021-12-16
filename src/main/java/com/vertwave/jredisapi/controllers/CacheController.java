@@ -1,7 +1,7 @@
-package com.vertwave.redisdemo.controllers;
+package com.vertwave.jredisapi.controllers;
 
-import com.vertwave.redisdemo.domain.model.CacheItem;
-import com.vertwave.redisdemo.services.CacheService;
+import com.vertwave.jredisapi.domain.model.CacheItem;
+import com.vertwave.jredisapi.services.CacheService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

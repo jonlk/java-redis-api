@@ -1,4 +1,4 @@
-package com.vertwave.redisdemo;
+package com.vertwave.jredisapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

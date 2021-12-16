@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.vertwave</groupId>
-    <artifactId>redis-demo-api</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>redis-demo-api</name>
-    <description>Redis Demo Api with Spring Boot</description>
+    <artifactId>jredis-api</artifactId>
+    <version>1.0.0</version>
+    <name>Java Redis Api</name>
+    <description>Java Redis Api with Spring Boot and Redis Cache</description>
     <properties>
         <java.version>17</java.version>
     </properties>
