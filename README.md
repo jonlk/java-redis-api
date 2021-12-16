@@ -1,5 +1,5 @@
-## Java Redis Demo Api
-### Java 17, Spring Boot, Redis Cache and Docker
+## Java Redis Api Demo 
+Using Java 17 / Spring Boot / Undertow / Redis
 
 ---
 
