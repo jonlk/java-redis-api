@@ -12,10 +12,11 @@ import java.util.Date;
 @Getter
 @Setter
 @NoArgsConstructor
-@RedisHash(value = "CacheItem", timeToLive = 60L) //1 minute
+//@RedisHash(value = "CacheItem", timeToLive = 60L) //1 minute
+@RedisHash(value = "CacheItem") //No expiration
 public class CacheItem implements Serializable {
     @Id
-    private String id;
+    private String key;
     private String value;
     private Date lastUpdated = new Date();
 }
