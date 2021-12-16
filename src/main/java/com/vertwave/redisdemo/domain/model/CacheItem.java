@@ -1,4 +1,4 @@
-package com.vertwave.redisstuff.domain.model;
+package com.vertwave.redisdemo.domain.model;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

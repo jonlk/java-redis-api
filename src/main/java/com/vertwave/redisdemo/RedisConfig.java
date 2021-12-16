@@ -1,4 +1,4 @@
-package com.vertwave.redisstuff;
+package com.vertwave.redisdemo;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

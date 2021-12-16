@@ -1,6 +1,6 @@
-package com.vertwave.redisstuff.repositories;
+package com.vertwave.redisdemo.repositories;
 
-import com.vertwave.redisstuff.domain.model.CacheItem;
+import com.vertwave.redisdemo.domain.model.CacheItem;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
