@@ -24,7 +24,7 @@ Cache Item Body Example:
 {
     "id": "4f034b58-82cd-4121-87a8-e5326400e964",
     "value": "Setting a new cache item",
-    "createdDate": "2021-12-16T00:25:59.233+00:00"
+    "lastUpdated": "2021-12-16T00:25:59.233+00:00"
 }
 ```
 
