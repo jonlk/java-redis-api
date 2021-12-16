@@ -30,9 +30,9 @@ public class CacheServiceImpl implements CacheService {
     @Override
     public List<CacheItem> getAllCacheItems() {
         List<CacheItem> cacheItems = new ArrayList<>();
-        for (CacheItem cacheItem : this.repository.findAll()) {
-            cacheItems.add(cacheItem);
-        }
+        this.repository
+                .findAll()
+                .forEach(cacheItems::add);
         return cacheItems;
     }
 
