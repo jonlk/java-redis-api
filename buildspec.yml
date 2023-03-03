@@ -12,4 +12,3 @@ phases:
     commands:
       - echo Build completed on `date`
       - mvn package
-  discard-paths: yes
