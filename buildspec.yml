@@ -11,11 +11,10 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - mvn test
-      - docker build -t vertwave/jredis-api-1.0.0-${CODEBUILD_BUILD_NUMBER} .
-#      - docker tag ${IMAGE_NAME}:${VERSION_NUMBER}-${CODEBUILD_BUILD_NUMBER} ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/${IMAGE_NAME}:${VERSION_NUMBER}-${CODEBUILD_BUILD_NUMBER}
-      - docker logout
+      - mvn package
   post_build:
     commands:
       - echo Build completed on `date`
-      - mvn package
+      - docker build -t vertwave/jredis-api-1.0.0-${CODEBUILD_BUILD_NUMBER} .
+      #- docker tag ${IMAGE_NAME}:${VERSION_NUMBER}-${CODEBUILD_BUILD_NUMBER} ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/${IMAGE_NAME}:${VERSION_NUMBER}-${CODEBUILD_BUILD_NUMBER}
+      - docker logout
