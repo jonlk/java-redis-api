@@ -30,5 +30,5 @@ Cache Item Body Example:
 
 - To get a cache item, pass in the ID from the response
 - GET
-- `http://localhost:8080/api/cache/getCacheItem/4f034b58-82cd-4121-87a8-e5326400e964`
+- `http://localhost:8080/api/cache/get/4f034b58-82cd-4121-87a8-e5326400e964`
 
