@@ -11,7 +11,7 @@ From Postman or similar
 
 - Setting a cache item
 - POST 
-- `http://localhost:8080/api/cache/setCacheItem`
+- `http://localhost:8080/api/cache/set`
 
 Cache Item Body Example:
 ```
