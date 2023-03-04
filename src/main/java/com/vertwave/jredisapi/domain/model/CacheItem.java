@@ -1,6 +1,5 @@
 package com.vertwave.jredisapi.domain.model;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -13,8 +12,8 @@ import java.util.Date;
 @Getter
 @Setter
 @NoArgsConstructor
-//@RedisHash(value = "CacheItem", timeToLive = 60L) //1 minute
-@RedisHash(value = "CacheItem") //No expiration
+// @RedisHash(value = "CacheItem", timeToLive = 60L) //1 minute
+@RedisHash(value = "CacheItem") // No expiration
 public class CacheItem implements Serializable {
     @Id
     private String key;
